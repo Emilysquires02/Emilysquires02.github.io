@@ -34,6 +34,10 @@
         <h3>Exports</h3>
         <p>Export of goods at current prices (£m)</p>
         <div class="chart" id="Chart2"> </div>
+
+        <h3>Lending 
+        <p> IMF Credit Outstanding </p> 
+        <div class="chart" id="Chart3"> </div>
     </div> 
 </body>
 
@@ -42,11 +46,13 @@
     //Define charts:
     var myChart1 = "hwk. chart 1.json";
     var myChart2 = "hwk.chart2.json";
+    var myChart3 = "IMF - credit_outstanding.json"
 // change the file names for the hwk 
 // get the charts from richards website 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
 
 </script>
 
