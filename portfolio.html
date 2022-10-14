@@ -46,6 +46,10 @@
         <h3>Lending </h3>
         <p> IMF Credit Outstanding </p> 
         <div class="chart" id="Chart3"> </div>
+
+        <h3>Lending adjusted</h3>
+        <p> IMF Credit Outstanding as a percentage of global GDP</p> 
+        <div class="chart" id="Chart4"> </div>
     </div> 
 </body>
 
@@ -54,13 +58,15 @@
     //Define charts:
     var myChart1 = "hwk. chart 1.json";
     var myChart2 = "hwk.chart2.json";
-    var myChart3 = "IMF - credit_outstanding.json"
+    var myChart3 = "IMF - credit_outstanding.json";
+    var myChart4 = "IMF % .json"
 // change the file names for the hwk 
 // get the charts from richards website 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
 
 </script>
 
