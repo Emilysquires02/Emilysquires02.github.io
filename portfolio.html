@@ -11,7 +11,7 @@
     <title>Document</title>
 
     <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="portfolio.css">
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -19,13 +19,12 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 <div>
-    <a href="project.html" id="link1">link to my project</a>
-</p>
+    <a href="index.html" id="link1">link to my project</a>
+
     <a href="portfolio.html" id="link2">link to my portfolio</a>
-</p>
+
     <a href="about.html" id="link3">about me</a>
-</p>
-    <a href="cv.html" id="link4">link to my cv</a>
+
 
 </div>
 <body>
@@ -33,23 +32,33 @@
     <div class="myWeek1">
         <h1>Portfolio.</h1>
         
-        <h4> Week 1 </h4>
-        <p>The first chart tracks CO2 emissions</p>
+        <h3> Week 1 </h3>
+        <p> In week 1 we worked on embedding charts
+        <p>The first chart tracks CO2 emissions in tonnes per capita using data from Global Carbon Project </p>
         <div class="chart" id="Chart1"></div>
 
-        <h3>Exports</h3>
-        <p>Export of goods at current prices (£m)</p>
+        
+        <p>Export of goods at current prices (£m) using data from ONS website </p>
         <div class="chart" id="Chart2"> </div>
 
 
-        <h4> Week 2 </h4>
-        <h3>Lending </h3>
-        <p> IMF Credit Outstanding </p> 
+        <h3> Week 2 </h3>
+        <h4>IMF credit outstanding data </h4>
+        <p> This data was taken from the IMF webiste and the first chart replicates a chart which was used in the Financial Times </p> 
         <div class="chart" id="Chart3"> </div>
 
-        <h3>Lending adjusted</h3>
-        <p> IMF Credit Outstanding as a percentage of global GDP</p> 
+        <h4>Lending adjusted</h4>
+        <p> IMF Credit Outstanding as a percentage of global GDP (using data from the World bank).
+            Here we have adjusted the data to real terms and it shows the most "risky" year was 1984 as this nwas when IMF lending was highest as a percentage of global GDP
+        </p> 
         <div class="chart" id="Chart4"> </div>
+
+        <h3> Week 3 </h3>
+        <h4>Daily Yields </h4>
+        <p> This data was taken from the IMF webiste and the first chart replicates a chart which was used in the Financial Times </p> 
+        <div class="chart" id="Chart5"> </div>
+
+
     </div> 
 </body>
 
@@ -59,7 +68,9 @@
     var myChart1 = "hwk. chart 1.json";
     var myChart2 = "hwk.chart2.json";
     var myChart3 = "IMF - credit_outstanding.json";
-    var myChart4 = "IMF % .json"
+    var myChart4 = "IMF lending.json";
+    var myChart5 = "Daily_Yields.json";
+    
 // change the file names for the hwk 
 // get the charts from richards website 
     // Embed charts:
@@ -67,6 +78,7 @@
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
 
 </script>
 
