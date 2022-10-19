@@ -9,17 +9,86 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: rgb(161, 160, 160);
- 
+    background-color: rgb(87, 172, 165);
+}
+/* display: flex;
+align-items: center;
+justify-content: center;
+width: auto;
+height: auto; 
+/* for individual id's */
+#link1{
+    object-position: 55px ;
+    background-color: rgb(176, 221, 243);
+    border:1.5px;
+    border-color:rgb(16, 120, 87);
+    border-style: solid;
+    border-radius: 8px;
+    font-family: Oswald; 
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#link1:hover{
+
+    background-color:rgb(16, 120, 87, .3);
+    border-color:rgb(0, 0, 0);
+}
+
+#link2{
+    background-color: rgb(176, 221, 243);
+    border:1.5px;
+    border-color:rgb(16, 120, 87);
+    border-style: solid;
+    border-radius: 8px;
+    font-family: Oswald; 
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    align-items: center;
+    text-align: center;
+}
+
+#link2:hover{
+
+    background-color:rgb(16, 120, 87, .3);
+    border-color: rgb(0, 0, 0);
+}
+
+#link3{
+    background-color: rgb(176, 221, 243);
+    border:1.5px;
+    border-color:rgb(16, 120, 87);
+    border-style: solid;
+    border-radius: 8px;
+    font-family: Oswald; 
+    padding: 4px;
+    padding-left: 11px;
+    padding-right: 11px;
+    align-items: center;
+    text-align: center;
+}
+
+#link3:hover{
+
+    background-color:rgb(16, 120, 87, .3);
+    border-color: rgb(0, 0, 0);
 }
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
+
 h1, h3, p{
     color:rgb(17, 17, 17);
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
     
 .myWeek1{
     margin: auto;
@@ -36,7 +105,5 @@ h1, h3, p{
     border-style: solid;
     border-radius: 5px;
     border-color: rgb(43, 116, 114);
-
-    
 }
     
