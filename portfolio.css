@@ -1,0 +1,150 @@
+/* Richard Davies, Data Science for Economists */
+
+/* This is my first proper css file */
+
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* Set the background color for my page: */
+body{
+    background-color: rgb(161, 160, 160);
+ 
+}
+
+#link1{
+    object-position: 55px ;
+    background-color: rgb(176, 221, 243);
+    border:1.5px;
+    border-color:rgb(16, 120, 87);
+    border-style: solid;
+    border-radius: 8px;
+    font-family: Oswald; 
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+#link1:hover{
+
+    background-color:rgb(16, 120, 87, .3);
+    border-color:rgb(0, 0, 0);
+}
+
+#link2{
+    background-color: rgb(176, 221, 243);
+    border:1.5px;
+    border-color:rgb(16, 120, 87);
+    border-style: solid;
+    border-radius: 8px;
+    font-family: Oswald; 
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    align-items: center;
+    text-align: center;
+}
+
+#link2:hover{
+
+    background-color:rgb(16, 120, 87, .3);
+    border-color: rgb(0, 0, 0);
+}
+
+#link3{
+    background-color: rgb(176, 221, 243);
+    border:1.5px;
+    border-color:rgb(16, 120, 87);
+    border-style: solid;
+    border-radius: 8px;
+    font-family: Oswald; 
+    padding: 4px;
+    padding-left: 11px;
+    padding-right: 11px;
+    align-items: center;
+    text-align: center;
+}
+
+#link3:hover{
+
+    background-color:rgb(16, 120, 87, .3);
+    border-color: rgb(0, 0, 0);
+}
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, h3, p{
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto slab', sans-serif;
+    text-align: center;
+}
+h4, p{
+    color:rgb(17,17,17);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-size-adjust: 32 ;
+}
+    
+.myWeek1{
+    margin: centre;
+    max-width: 600px;
+    background-color: rgb(171, 242, 242);
+
+    border-width: 5px;
+    border-style: dashed;
+    border-radius: 5px;
+    border-color:rgb(30, 136, 202);
+    position: relative;
+
+}
+
+
+/* Set the apperance of the class, chart */
+#Chart1, #Chart5 {
+    background-color: rgb(87, 172, 165);
+    width:385px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(87, 172, 165);
+    position:center;
+    align-items: center; 
+    margin-left: 118px;
+}
+#Chart2 {
+    background-color: rgb(87, 172, 165);
+    width:410px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(87, 172, 165);
+    position:center;
+    align-items: center; 
+    margin-left: 100px;
+}
+#Chart3 {
+    background-color: rgb(87, 172, 165);
+    width:390px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(87, 172, 165);
+    position:center;
+    align-items: center;
+    margin-left:108px; 
+}
+#Chart4 {
+    background-color: rgb(87, 172, 165);
+    width:365px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(87, 172, 165);
+    position:center;
+    align-items: center; 
+    margin-left:118px ;
+}
