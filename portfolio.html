@@ -55,8 +55,12 @@
 
         <h3> Week 3 </h3>
         <h4>Daily Yields </h4>
-        <p> This data was taken from the IMF webiste and the first chart replicates a chart which was used in the Financial Times </p> 
+        <p> This chart was created using a csv dataset </p> 
         <div class="chart" id="Chart5"> </div>
+
+        <h4> Yearly Percentage Change in Rental Prices  </h4>
+        <p> Using a dataset from the Office of National Statistics I have visually shown the percentage change in annual rental prices  </p> 
+        <div class="chart" id="Chart6"> </div>
 
 
     </div> 
@@ -69,7 +73,8 @@
     var myChart2 = "hwk.chart2.json";
     var myChart3 = "IMF - credit_outstanding.json";
     var myChart4 = "IMF lending.json";
-    var myChart5 = "Daily_Yields.json";
+    var myChart5 = "Daily yields.json";
+    var myChart6 = "Rental change.json";
     
 // change the file names for the hwk 
 // get the charts from richards website 
@@ -79,6 +84,7 @@
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
 
 </script>
 
