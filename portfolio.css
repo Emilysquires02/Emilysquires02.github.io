@@ -104,7 +104,7 @@ h4, p{
 
 
 /* Set the apperance of the class, chart */
-#Chart1, #Chart5 {
+#Chart1, #Chart5, #Chart6 {
     background-color: rgb(87, 172, 165);
     width:385px;
     border-width: 2px;
