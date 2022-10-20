@@ -95,7 +95,7 @@ h4, p{
     background-color: rgb(171, 242, 242);
 
     border-width: 5px;
-    border-style: dashed;
+    border-style: solid;
     border-radius: 5px;
     border-color:rgb(30, 136, 202);
     position: relative;
