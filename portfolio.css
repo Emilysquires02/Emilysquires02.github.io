@@ -102,49 +102,18 @@ h4, p{
 
 }
 
+.chart-container {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 
 /* Set the apperance of the class, chart */
-#Chart1, #Chart5, #Chart6 {
-    background-color: rgb(87, 172, 165);
-    width:385px;
-    border-width: 2px;
-    border-style: solid;
+.chart {
+    background-color: white;
     border-radius: 5px;
-    border-color: rgb(87, 172, 165);
-    position:center;
-    align-items: center; 
-    margin-left: 118px;
-}
-#Chart2 {
-    background-color: rgb(87, 172, 165);
-    width:410px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: rgb(87, 172, 165);
-    position:center;
-    align-items: center; 
-    margin-left: 100px;
-}
-#Chart3 {
-    background-color: rgb(87, 172, 165);
-    width:390px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: rgb(87, 172, 165);
-    position:center;
-    align-items: center;
-    margin-left:108px; 
-}
-#Chart4 {
-    background-color: rgb(87, 172, 165);
-    width:365px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: rgb(87, 172, 165);
-    position:center;
-    align-items: center; 
-    margin-left:118px ;
+    padding: 20px;
+    display: inline-block;
 }
