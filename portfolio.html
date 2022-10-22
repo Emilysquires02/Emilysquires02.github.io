@@ -49,7 +49,7 @@
 
         <h4>Lending adjusted</h4>
         <p> IMF Credit Outstanding as a percentage of global GDP (using data from the World bank).
-            Here we have adjusted the data to real terms and it shows the most "risky" year was 1984 as this nwas when IMF lending was highest as a percentage of global GDP
+            Here we have adjusted the data to real terms and it shows the most "risky" year was 1984 as this was when IMF lending was highest as a percentage of global GDP
         </p> 
         <div class="chart" id="Chart4"> </div>
 
@@ -58,8 +58,20 @@
         <p> This chart was created using a csv dataset </p> 
         <div class="chart" id="Chart5"> </div>
 
+        <h4>Urban Population </h4>
+        <p> This chart was create by using Google colab to clean the data then exporting JSON using the python data conversion pipelines. The data source is defined
+            inline, in the Vega-lite specification </p> 
+        <div class="chart" id="Chart7"> </div>
+
+        <h4>Urban Population </h4>
+        <p> This is using the same data as above however with a different visual encoding. The use of area in this chart is more attractive. According to Steven's Power law, identification of area is more accurate than colour. It is slightly difficult though as the UAE's population is so small </p> 
+        <div class="chart" id="Chart8"> </div>
+
+        
+        <h3> Week 4 </h3>
         <h4> Yearly Percentage Change in Rental Prices  </h4>
-        <p> Using a dataset from the Office of National Statistics I have visually shown the percentage change in annual rental prices  </p> 
+        <p> Using a dataset from the Office of National Statistics I have visually shown the percentage change in annual rental prices using data scraping </p> 
+        <p>link to the Google Colab area where I analysed the data:  https://colab.research.google.com/drive/13ISKVbTGoFkKsiwoji1mAPW4uBM9mptg?usp=sharing </p> 
         <div class="chart" id="Chart6"> </div>
 
 
@@ -75,6 +87,11 @@
     var myChart4 = "IMF lending.json";
     var myChart5 = "Daily yields.json";
     var myChart6 = "Rental change.json";
+    var myChart7 = "Urban Population.json";
+    var myChart8 = "Urban Pop area.json";
+
+
+
     
 // change the file names for the hwk 
 // get the charts from richards website 
@@ -85,6 +102,10 @@
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
+
+
 
 </script>
 
