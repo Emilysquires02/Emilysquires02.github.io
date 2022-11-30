@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Total number of students in Bristol 2014-2021",
+    "subtitle": "Source:HESA , looking at the 2 largest univerisities in Bristol",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/Bristol_students_json%20(3)",
+    "format": {"type": "json"}
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "bar", "point": false, "align": "left", "width": 35},
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "Number of students",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "HE provider",
+      "type": "ordinal",
+      "scale": {"scheme": "set2"},
+      "title": null,
+      "legend": {"orient": "top-left"}
+    },
+    "tooltip": [
+      {
+        "field": "Number of students",
+        "type": "quantitative",
+        "title": "Number of students"
+      },
+      {"field": "HE provider", "type": "ordinal", "title": "University"}
+    ],
+    "config": {}
+  },
+  "config": {}
+}
