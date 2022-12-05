@@ -1,0 +1,337 @@
+,HE provider,Latitude,Longitude ,Year,Students
+0,Anglia Ruskin University,52.628101,1.299349,2015,19830
+1,Anglia Ruskin University,52.628101,1.299349,2016,20935
+2,Anglia Ruskin University,52.628101,1.299349,2017,22245
+3,Anglia Ruskin University,52.628101,1.299349,2018,23485
+4,Anglia Ruskin University,52.628101,1.299349,2019,24490
+5,Anglia Ruskin University,52.628101,1.299349,2020,26715
+6,Anglia Ruskin University,52.628101,1.299349,2021,32180
+7,Queen's University Belfast,54.597269,-5.930109,2015,23855
+8,Queen's University Belfast,54.597269,-5.930109,2016,23870
+9,Queen's University Belfast,54.597269,-5.930109,2017,23850
+10,Queen's University Belfast,54.597269,-5.930109,2018,24490
+11,Queen's University Belfast,54.597269,-5.930109,2019,24695
+12,Queen's University Belfast,54.597269,-5.930109,2020,24915
+13,Queen's University Belfast,54.597269,-5.930109,2021,25365
+14,Birmingham City University,52.482899,-1.893462,2015,23335
+15,Birmingham City University,52.482899,-1.893462,2016,24065
+16,Birmingham City University,52.482899,-1.893462,2017,24130
+17,Birmingham City University,52.482899,-1.893462,2018,24575
+18,Birmingham City University,52.482899,-1.893462,2019,25855
+19,Birmingham City University,52.482899,-1.893462,2020,26930
+20,Birmingham City University,52.482899,-1.893462,2021,28995
+21,The University of Birmingham,52.482899,-1.893462,2015,34160
+22,The University of Birmingham,52.482899,-1.893462,2016,33830
+23,The University of Birmingham,52.482899,-1.893462,2017,34835
+24,The University of Birmingham,52.482899,-1.893462,2018,34915
+25,The University of Birmingham,52.482899,-1.893462,2019,35445
+26,The University of Birmingham,52.482899,-1.893462,2020,35760
+27,The University of Birmingham,52.482899,-1.893462,2021,37750
+28,The University of Bristol,51.454514,-2.58791,2015,21555
+29,The University of Bristol,51.454514,-2.58791,2016,21905
+30,The University of Bristol,51.454514,-2.58791,2017,23590
+31,The University of Bristol,51.454514,-2.58791,2018,24850
+32,The University of Bristol,51.454514,-2.58791,2019,25955
+33,The University of Bristol,51.454514,-2.58791,2020,27375
+34,The University of Bristol,51.454514,-2.58791,2021,29785
+35,The University of Cambridge,52.205,0.119,2015,19515
+36,The University of Cambridge,52.205,0.119,2016,19660
+37,The University of Cambridge,52.205,0.119,2017,19955
+38,The University of Cambridge,52.205,0.119,2018,20510
+39,The University of Cambridge,52.205,0.119,2019,20890
+40,The University of Cambridge,52.205,0.119,2020,21340
+41,The University of Cambridge,52.205,0.119,2021,22155
+42,Cardiff University,51.481307,-3.180498,2015,30480
+43,Cardiff University,51.481307,-3.180498,2016,30675
+44,Cardiff University,51.481307,-3.180498,2017,31595
+45,Cardiff University,51.481307,-3.180498,2018,31935
+46,Cardiff University,51.481307,-3.180498,2019,33190
+47,Cardiff University,51.481307,-3.180498,2020,33260
+48,Cardiff University,51.481307,-3.180498,2021,33510
+49,The University of Central Lancashire,53.759,-2.699,2015,25655
+50,The University of Central Lancashire,53.759,-2.699,2016,24460
+51,The University of Central Lancashire,53.759,-2.699,2017,24160
+52,The University of Central Lancashire,53.759,-2.699,2018,23000
+53,The University of Central Lancashire,53.759,-2.699,2019,23160
+54,The University of Central Lancashire,53.759,-2.699,2020,24715
+55,The University of Central Lancashire,53.759,-2.699,2021,27945
+56,"City, University of London",51.500152,-0.126236,2015,18280
+57,"City, University of London",51.500152,-0.126236,2016,18995
+58,"City, University of London",51.500152,-0.126236,2017,19405
+59,"City, University of London",51.500152,-0.126236,2018,19780
+60,"City, University of London",51.500152,-0.126236,2019,20210
+61,"City, University of London",51.500152,-0.126236,2020,19975
+62,"City, University of London",51.500152,-0.126236,2021,21325
+63,Coventry University,52.408056,-1.510556,2015,27600
+64,Coventry University,52.408056,-1.510556,2016,29430
+65,Coventry University,52.408056,-1.510556,2017,31690
+66,Coventry University,52.408056,-1.510556,2018,34125
+67,Coventry University,52.408056,-1.510556,2019,34970
+68,Coventry University,52.408056,-1.510556,2020,38430
+69,Coventry University,52.408056,-1.510556,2021,39145
+70,De Montfort University,52.633333,-1.133333,2015,19650
+71,De Montfort University,52.633333,-1.133333,2016,20905
+72,De Montfort University,52.633333,-1.133333,2017,23205
+73,De Montfort University,52.633333,-1.133333,2018,25695
+74,De Montfort University,52.633333,-1.133333,2019,25810
+75,De Montfort University,52.633333,-1.133333,2020,29000
+76,De Montfort University,52.633333,-1.133333,2021,27535
+77,University of Derby,52.921944,-1.475833,2015,15935
+78,University of Derby,52.921944,-1.475833,2016,16300
+79,University of Derby,52.921944,-1.475833,2017,17585
+80,University of Derby,52.921944,-1.475833,2018,18490
+81,University of Derby,52.921944,-1.475833,2019,19145
+82,University of Derby,52.921944,-1.475833,2020,19685
+83,University of Derby,52.921944,-1.475833,2021,21285
+84,University of Durham,54.7761,-1.5733,2015,17595
+85,University of Durham,54.7761,-1.5733,2016,17810
+86,University of Durham,54.7761,-1.5733,2017,18385
+87,University of Durham,54.7761,-1.5733,2018,18330
+88,University of Durham,54.7761,-1.5733,2019,19025
+89,University of Durham,54.7761,-1.5733,2020,19520
+90,University of Durham,54.7761,-1.5733,2021,20645
+91,The University of Edinburgh,55.950193,-3.187553,2015,28880
+92,The University of Edinburgh,55.950193,-3.187553,2016,30355
+93,The University of Edinburgh,55.950193,-3.187553,2017,31910
+94,The University of Edinburgh,55.950193,-3.187553,2018,32885
+95,The University of Edinburgh,55.950193,-3.187553,2019,34275
+96,The University of Edinburgh,55.950193,-3.187553,2020,35375
+97,The University of Edinburgh,55.950193,-3.187553,2021,37830
+98,The University of Exeter,50.7218,-3.533617,2015,20555
+99,The University of Exeter,50.7218,-3.533617,2016,21670
+100,The University of Exeter,50.7218,-3.533617,2017,23175
+101,The University of Exeter,50.7218,-3.533617,2018,24045
+102,The University of Exeter,50.7218,-3.533617,2019,25010
+103,The University of Exeter,50.7218,-3.533617,2020,26935
+104,The University of Exeter,50.7218,-3.533617,2021,30250
+105,The University of Glasgow,55.858,-4.259,2015,26815
+106,The University of Glasgow,55.858,-4.259,2016,27220
+107,The University of Glasgow,55.858,-4.259,2017,28615
+108,The University of Glasgow,55.858,-4.259,2018,29725
+109,The University of Glasgow,55.858,-4.259,2019,30805
+110,The University of Glasgow,55.858,-4.259,2020,32465
+111,The University of Glasgow,55.858,-4.259,2021,37145
+112,The University of Greenwich,51.500152,-0.126236,2015,21295
+113,The University of Greenwich,51.500152,-0.126236,2016,20645
+114,The University of Greenwich,51.500152,-0.126236,2017,19915
+115,The University of Greenwich,51.500152,-0.126236,2018,18675
+116,The University of Greenwich,51.500152,-0.126236,2019,18655
+117,The University of Greenwich,51.500152,-0.126236,2020,19825
+118,The University of Greenwich,51.500152,-0.126236,2021,22760
+119,University of Hertfordshire,51.762,-0.228,2015,24880
+120,University of Hertfordshire,51.762,-0.228,2016,24655
+121,University of Hertfordshire,51.762,-0.228,2017,24580
+122,University of Hertfordshire,51.762,-0.228,2018,24400
+123,University of Hertfordshire,51.762,-0.228,2019,24280
+124,University of Hertfordshire,51.762,-0.228,2020,25520
+125,University of Hertfordshire,51.762,-0.228,2021,30100
+126,The University of Huddersfield,53.645156,-1.784928,2015,19620
+127,The University of Huddersfield,53.645156,-1.784928,2016,19270
+128,The University of Huddersfield,53.645156,-1.784928,2017,18280
+129,The University of Huddersfield,53.645156,-1.784928,2018,18245
+130,The University of Huddersfield,53.645156,-1.784928,2019,17295
+131,The University of Huddersfield,53.645156,-1.784928,2020,17305
+132,The University of Huddersfield,53.645156,-1.784928,2021,20610
+133,"Imperial College of Science, Technology and Medicine",51.500152,-0.126236,2015,16610
+134,"Imperial College of Science, Technology and Medicine",51.500152,-0.126236,2016,17035
+135,"Imperial College of Science, Technology and Medicine",51.500152,-0.126236,2017,17690
+136,"Imperial College of Science, Technology and Medicine",51.500152,-0.126236,2018,18375
+137,"Imperial College of Science, Technology and Medicine",51.500152,-0.126236,2019,19115
+138,"Imperial College of Science, Technology and Medicine",51.500152,-0.126236,2020,19400
+139,"Imperial College of Science, Technology and Medicine",51.500152,-0.126236,2021,21370
+140,King's College London,51.500152,-0.126236,2015,28720
+141,King's College London,51.500152,-0.126236,2016,28900
+142,King's College London,51.500152,-0.126236,2017,30565
+143,King's College London,51.500152,-0.126236,2018,32270
+144,King's College London,51.500152,-0.126236,2019,32895
+145,King's College London,51.500152,-0.126236,2020,33110
+146,King's College London,51.500152,-0.126236,2021,38445
+147,Leeds Beckett University,53.799722,-1.549167,2015,26025
+148,Leeds Beckett University,53.799722,-1.549167,2016,25920
+149,Leeds Beckett University,53.799722,-1.549167,2017,24885
+150,Leeds Beckett University,53.799722,-1.549167,2018,23570
+151,Leeds Beckett University,53.799722,-1.549167,2019,23275
+152,Leeds Beckett University,53.799722,-1.549167,2020,23290
+153,Leeds Beckett University,53.799722,-1.549167,2021,23690
+154,The University of Leeds,53.799722,-1.549167,2015,31030
+155,The University of Leeds,53.799722,-1.549167,2016,31790
+156,The University of Leeds,53.799722,-1.549167,2017,33300
+157,The University of Leeds,53.799722,-1.549167,2018,34420
+158,The University of Leeds,53.799722,-1.549167,2019,36250
+159,The University of Leeds,53.799722,-1.549167,2020,36330
+160,The University of Leeds,53.799722,-1.549167,2021,36840
+161,Liverpool John Moores University,53.4,-3.0,2015,20635
+162,Liverpool John Moores University,53.4,-3.0,2016,21875
+163,Liverpool John Moores University,53.4,-3.0,2017,22445
+164,Liverpool John Moores University,53.4,-3.0,2018,23230
+165,Liverpool John Moores University,53.4,-3.0,2019,24030
+166,Liverpool John Moores University,53.4,-3.0,2020,25050
+167,Liverpool John Moores University,53.4,-3.0,2021,27200
+168,The University of Liverpool,53.4,-3.0,2015,22715
+169,The University of Liverpool,53.4,-3.0,2016,24775
+170,The University of Liverpool,53.4,-3.0,2017,27070
+171,The University of Liverpool,53.4,-3.0,2018,28795
+172,The University of Liverpool,53.4,-3.0,2019,29695
+173,The University of Liverpool,53.4,-3.0,2020,29600
+174,The University of Liverpool,53.4,-3.0,2021,29185
+175,"University of the Arts, London",51.500152,-0.126236,2015,17775
+176,"University of the Arts, London",51.500152,-0.126236,2016,18205
+177,"University of the Arts, London",51.500152,-0.126236,2017,18290
+178,"University of the Arts, London",51.500152,-0.126236,2018,18970
+179,"University of the Arts, London",51.500152,-0.126236,2019,19095
+180,"University of the Arts, London",51.500152,-0.126236,2020,19965
+181,"University of the Arts, London",51.500152,-0.126236,2021,21105
+182,The Manchester Metropolitan University,53.480713,-2.234377,2015,31355
+183,The Manchester Metropolitan University,53.480713,-2.234377,2016,32485
+184,The Manchester Metropolitan University,53.480713,-2.234377,2017,33010
+185,The Manchester Metropolitan University,53.480713,-2.234377,2018,33080
+186,The Manchester Metropolitan University,53.480713,-2.234377,2019,33050
+187,The Manchester Metropolitan University,53.480713,-2.234377,2020,33420
+188,The Manchester Metropolitan University,53.480713,-2.234377,2021,35940
+189,The University of Manchester,53.480713,-2.234377,2015,38590
+190,The University of Manchester,53.480713,-2.234377,2016,39700
+191,The University of Manchester,53.480713,-2.234377,2017,40490
+192,The University of Manchester,53.480713,-2.234377,2018,40140
+193,The University of Manchester,53.480713,-2.234377,2019,40250
+194,The University of Manchester,53.480713,-2.234377,2020,40485
+195,The University of Manchester,53.480713,-2.234377,2021,44635
+196,Newcastle University,54.966667,-1.6,2015,23110
+197,Newcastle University,54.966667,-1.6,2016,23795
+198,Newcastle University,54.966667,-1.6,2017,24980
+199,Newcastle University,54.966667,-1.6,2018,26470
+200,Newcastle University,54.966667,-1.6,2019,27215
+201,Newcastle University,54.966667,-1.6,2020,28070
+202,Newcastle University,54.966667,-1.6,2021,27775
+203,University of Northumbria at Newcastle,54.966667,-1.6,2015,27075
+204,University of Northumbria at Newcastle,54.966667,-1.6,2016,27165
+205,University of Northumbria at Newcastle,54.966667,-1.6,2017,26675
+206,University of Northumbria at Newcastle,54.966667,-1.6,2018,26645
+207,University of Northumbria at Newcastle,54.966667,-1.6,2019,26450
+208,University of Northumbria at Newcastle,54.966667,-1.6,2020,28325
+209,University of Northumbria at Newcastle,54.966667,-1.6,2021,31860
+210,University of Nottingham,52.95,-1.133333,2015,31910
+211,University of Nottingham,52.95,-1.133333,2016,32125
+212,University of Nottingham,52.95,-1.133333,2017,32515
+213,University of Nottingham,52.95,-1.133333,2018,33100
+214,University of Nottingham,52.95,-1.133333,2019,33540
+215,University of Nottingham,52.95,-1.133333,2020,34840
+216,University of Nottingham,52.95,-1.133333,2021,35785
+217,The Nottingham Trent University,52.95,-1.133333,2015,26890
+218,The Nottingham Trent University,52.95,-1.133333,2016,27920
+219,The Nottingham Trent University,52.95,-1.133333,2017,29370
+220,The Nottingham Trent University,52.95,-1.133333,2018,30890
+221,The Nottingham Trent University,52.95,-1.133333,2019,33255
+222,The Nottingham Trent University,52.95,-1.133333,2020,35785
+223,The Nottingham Trent University,52.95,-1.133333,2021,38995
+224,The University of Oxford,51.751944,-1.257778,2015,26005
+225,The University of Oxford,51.751944,-1.257778,2016,24860
+226,The University of Oxford,51.751944,-1.257778,2017,24650
+227,The University of Oxford,51.751944,-1.257778,2018,24915
+228,The University of Oxford,51.751944,-1.257778,2019,25390
+229,The University of Oxford,51.751944,-1.257778,2020,25910
+230,The University of Oxford,51.751944,-1.257778,2021,27150
+231,The University of Portsmouth,50.816667,-1.083333,2015,21625
+232,The University of Portsmouth,50.816667,-1.083333,2016,22060
+233,The University of Portsmouth,50.816667,-1.083333,2017,23505
+234,The University of Portsmouth,50.816667,-1.083333,2018,24395
+235,The University of Portsmouth,50.816667,-1.083333,2019,25515
+236,The University of Portsmouth,50.816667,-1.083333,2020,26775
+237,The University of Portsmouth,50.816667,-1.083333,2021,28280
+238,Queen Mary University of London,51.500152,-0.126236,2015,15960
+239,Queen Mary University of London,51.500152,-0.126236,2016,17140
+240,Queen Mary University of London,51.500152,-0.126236,2017,18890
+241,Queen Mary University of London,51.500152,-0.126236,2018,20070
+242,Queen Mary University of London,51.500152,-0.126236,2019,20560
+243,Queen Mary University of London,51.500152,-0.126236,2020,21665
+244,Queen Mary University of London,51.500152,-0.126236,2021,23870
+245,The University of Salford,53.480713,-2.234377,2015,18920
+246,The University of Salford,53.480713,-2.234377,2016,20520
+247,The University of Salford,53.480713,-2.234377,2017,19995
+248,The University of Salford,53.480713,-2.234377,2018,20290
+249,The University of Salford,53.480713,-2.234377,2019,20815
+250,The University of Salford,53.480713,-2.234377,2020,21500
+251,The University of Salford,53.480713,-2.234377,2021,23955
+252,Sheffield Hallam University,53.383611,-1.466944,2015,31530
+253,Sheffield Hallam University,53.383611,-1.466944,2016,31485
+254,Sheffield Hallam University,53.383611,-1.466944,2017,30815
+255,Sheffield Hallam University,53.383611,-1.466944,2018,30730
+256,Sheffield Hallam University,53.383611,-1.466944,2019,30715
+257,Sheffield Hallam University,53.383611,-1.466944,2020,30960
+258,Sheffield Hallam University,53.383611,-1.466944,2021,33270
+259,The University of Sheffield,53.383611,-1.466944,2015,27195
+260,The University of Sheffield,53.383611,-1.466944,2016,27925
+261,The University of Sheffield,53.383611,-1.466944,2017,28715
+262,The University of Sheffield,53.383611,-1.466944,2018,29675
+263,The University of Sheffield,53.383611,-1.466944,2019,30195
+264,The University of Sheffield,53.383611,-1.466944,2020,30055
+265,The University of Sheffield,53.383611,-1.466944,2021,30605
+266,The University of Southampton,50.9,-1.4,2015,23795
+267,The University of Southampton,50.9,-1.4,2016,24875
+268,The University of Southampton,50.9,-1.4,2017,25180
+269,The University of Southampton,50.9,-1.4,2018,24625
+270,The University of Southampton,50.9,-1.4,2019,22715
+271,The University of Southampton,50.9,-1.4,2020,22665
+272,The University of Southampton,50.9,-1.4,2021,21395
+273,The University of Strathclyde,55.858,-4.259,2015,21210
+274,The University of Strathclyde,55.858,-4.259,2016,21470
+275,The University of Strathclyde,55.858,-4.259,2017,22955
+276,The University of Strathclyde,55.858,-4.259,2018,22295
+277,The University of Strathclyde,55.858,-4.259,2019,22640
+278,The University of Strathclyde,55.858,-4.259,2020,24330
+279,The University of Strathclyde,55.858,-4.259,2021,24450
+280,Swansea University,51.616667,-3.95,2015,16020
+281,Swansea University,51.616667,-3.95,2016,17445
+282,Swansea University,51.616667,-3.95,2017,19160
+283,Swansea University,51.616667,-3.95,2018,20415
+284,Swansea University,51.616667,-3.95,2019,20620
+285,Swansea University,51.616667,-3.95,2020,20375
+286,Swansea University,51.616667,-3.95,2021,21465
+287,Teesside University,54.58889,-1.1875,2015,17920
+288,Teesside University,54.58889,-1.1875,2016,18575
+289,Teesside University,54.58889,-1.1875,2017,18555
+290,Teesside University,54.58889,-1.1875,2018,18375
+291,Teesside University,54.58889,-1.1875,2019,18665
+292,Teesside University,54.58889,-1.1875,2020,19290
+293,Teesside University,54.58889,-1.1875,2021,21275
+294,Ulster University,54.597269,-5.930109,2015,26085
+295,Ulster University,54.597269,-5.930109,2016,25155
+296,Ulster University,54.597269,-5.930109,2017,24640
+297,Ulster University,54.597269,-5.930109,2018,23715
+298,Ulster University,54.597269,-5.930109,2019,24530
+299,Ulster University,54.597269,-5.930109,2020,27680
+300,Ulster University,54.597269,-5.930109,2021,33045
+301,University College London,51.500152,-0.126236,2015,29945
+302,University College London,51.500152,-0.126236,2016,37135
+303,University College London,51.500152,-0.126236,2017,37905
+304,University College London,51.500152,-0.126236,2018,40015
+305,University College London,51.500152,-0.126236,2019,41180
+306,University College London,51.500152,-0.126236,2020,41095
+307,University College London,51.500152,-0.126236,2021,45715
+308,University of South Wales,51.481307,-3.180498,2015,27710
+309,University of South Wales,51.481307,-3.180498,2016,25265
+310,University of South Wales,51.481307,-3.180498,2017,23465
+311,University of South Wales,51.481307,-3.180498,2018,22860
+312,University of South Wales,51.481307,-3.180498,2019,22330
+313,University of South Wales,51.481307,-3.180498,2020,23090
+314,University of South Wales,51.481307,-3.180498,2021,23150
+315,The University of Warwick,52.408056,-1.510556,2015,23685
+316,The University of Warwick,52.408056,-1.510556,2016,24665
+317,The University of Warwick,52.408056,-1.510556,2017,25045
+318,The University of Warwick,52.408056,-1.510556,2018,25705
+319,The University of Warwick,52.408056,-1.510556,2019,26080
+320,The University of Warwick,52.408056,-1.510556,2020,26825
+321,The University of Warwick,52.408056,-1.510556,2021,28110
+322,"University of the West of England, Bristol",51.454514,-2.58791,2015,26670
+323,"University of the West of England, Bristol",51.454514,-2.58791,2016,27715
+324,"University of the West of England, Bristol",51.454514,-2.58791,2017,27880
+325,"University of the West of England, Bristol",51.454514,-2.58791,2018,28790
+326,"University of the West of England, Bristol",51.454514,-2.58791,2019,29555
+327,"University of the West of England, Bristol",51.454514,-2.58791,2020,30680
+328,"University of the West of England, Bristol",51.454514,-2.58791,2021,34410
+329,The University of York,53.957744,-1.082259,2015,16835
+330,The University of York,53.957744,-1.082259,2016,17155
+331,The University of York,53.957744,-1.082259,2017,17900
+332,The University of York,53.957744,-1.082259,2018,18825
+333,The University of York,53.957744,-1.082259,2019,19470
+334,The University of York,53.957744,-1.082259,2020,19790
+335,The University of York,53.957744,-1.082259,2021,22695
