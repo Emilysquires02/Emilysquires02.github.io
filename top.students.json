@@ -1,13 +1,16 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Number of students at selected UK universities 2015-2021",
-    "subtitle": "per 1000 students. Source: HESA",
+    "text": "Number of students at UK universities 2015-2021",
+    "subtitle": "Universities over 20'000 students in 2021. Source: HESA",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
     "color": "black"
   },
+  "height": 380,
+  "width": 260,
+  "type": "text",
   "params": [
     {
       "name": "selectedDate",
@@ -22,7 +25,7 @@
     }
   ],
   "data": {
-    "url": "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/UK%20universities.top.10.csv"
+    "url": "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/UK%20universities.csv"
   },
   "transform": [
     {
@@ -32,21 +35,35 @@
     {"filter": "datum.year==selectedDate"},
     {"calculate": "datum.value/1000", "as": "per 1000"}
   ],
-  "height": 300,
-  "width": 300,
-  "mark": {"type": "bar", "color": "#238a6d"},
+  "mark": {"type": "bar", "size": 5.5},
+  "color": {"scale": {"scheme": "set2"}, "legend": "null"},
   "encoding": {
     "x": {
-      "field": "HE provider",
-      "type": "nominal",
-      "axis": {"title": null, "grid": false, "ticks": false, "labelAngle": 45}
-    },
-    "y": {
       "field": "per 1000",
       "type": "quantitative",
       "title": "Number of students (per 1000)",
       "axis": {"grid": false}
+    },
+    "y": {
+      "field": "HE provider",
+      "type": "nominal",
+      "axis": {
+        "title": null,
+        "grid": false,
+        "ticks": false,
+        "labelAngle": 0,
+        "labelFontSize": 9
+      }
+    },
+    "color": {
+      "field": "HE provider",
+      "legend": null,
+      "scale": {"scheme": "set2"}
     }
   },
+  "tooltip": [
+    {"field": "HE provider", "type": "nominal", "title": "University"},
+    {"field": "per 1000", "type": "quantitative", "title": "Number of students"}
+  ],
   "config": {}
 }
