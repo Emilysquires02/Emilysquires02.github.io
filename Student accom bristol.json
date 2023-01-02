@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Number of beds in Student Accommodation: Bristol",
+    "subtitle": "as of 21st July 2022, only showing accommodation with over 20 beds",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://opendata.bristol.gov.uk/api/v2/catalog/datasets/student-accommodation/exports/json?limit=-1&offset=0&timezone=UTC",
+    "format": {"type": "json", "property": "bedspaces"}
+  },
+  "height": 300,
+  "width": 600,
+  "mark": {"type": "bar"},
+  "transform": [
+    {
+      "window": [
+        {
+          "op": "sum",
+          "field": "bedspaces",
+          "if": "datum.status=='planning permission granted'",
+          "as": "total bedspaces"
+        }
+      ],
+      "frame": [null, null]
+    },
+    {"filter": "datum.bedspaces >= 20"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "name",
+      "type": "nominal",
+      "sort": "-y",
+      "title": null,
+      "axis": {"title": null, "grid": false, "ticks": false, "labelFontSize": 5}
+    },
+    "y": {
+      "field": "bedspaces",
+      "type": "quantitative",
+      "title": "",
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "status",
+      "type": "nominal",
+      "title": "Status:",
+      "scale": {"scheme": "set2"}
+    },
+    "tooltip": [
+      {"field": "bedspaces", "type": "quantitative", "title": "Beds"},
+      {"field": "name", "type": "nominal", "title": "Name"}
+    ]
+  },
+  "config": {}
+}
