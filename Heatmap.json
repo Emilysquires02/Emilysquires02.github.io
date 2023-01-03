@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "todo",
+  "title": {
+    "text": "Indexed Rent for England 2005-2022",
+    "subtitle": "Index level (January 2015 = 100), Source: ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 400,
+  "height": 250,
+  "padding": 5,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "data": [
+    {
+      "name": "source",
+      "url": "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/iphrpreferencetablenovember2022%20(1).csv",
+      "format": {"type": "csv", "delimiter": ","}
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "domain": {"data": "source", "field": "month"},
+      "range": "width"
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": {"data": "source", "field": "year"},
+      "range": "height"
+    },
+    {
+      "name": "color",
+      "type": "linear",
+      "range": {"scheme": "Magma"},
+      "domain": {"data": "source", "field": "England"}
+    }
+  ],
+  "axes": [
+    {"scale": "x", "orient": "bottom"},
+    {"scale": "y", "orient": "left"}
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "source"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "England"},
+          "x": {"scale": "x", "field": "month"},
+          "width": {"scale": "x", "band": true},
+          "y": {"scale": "y", "field": "year"},
+          "height": {"scale": "y", "band": true},
+          "tooltip": [
+            {"signal": "datum.England + ': ' + datum.month + datum.year"}
+          ]
+        }
+      }
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "type": "gradient",
+      "title": "Indexed rent ",
+      "titleFontSize": 8
+    }
+  ],
+  "config": {}
+}
