@@ -1,0 +1,32 @@
+
+***DO File for detrending the ONS indexed rent data 
+
+//Open data
+clear
+
+cd "C:\Users\emily\Documents\data science week 1\project data\harder graphs" 
+import delimited "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/iphrpreferencetablenovember2022%20(1).csv", encoding(ISO-8859-9) 
+
+browse
+
+rename v2 datestring, replace 
+//renaming for ease 
+
+// 
+drop if missing(datestring)
+
+// Create a date variable stata will understand 
+generate Date= date(datestring, "MDY")
+format Date %td
+
+//For each country: regress, predict, calc errors
+foreach i in northeast northwest yorkshireandthehumber eastmidlands westmidlands east london southeast southwest england {
+regress `i' Date
+predict `i'_pred
+gen `i'_error = `i'-`i'_pred
+}
+
+//Export the data:
+export delimited using "C:\Users\emily\Documents\data science week 1\project data\harder graphs\regressed.csv", replace
+
+help export delimited
