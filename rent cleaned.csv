@@ -33,149 +33,148 @@
 88,Yorkshire and The Humber,Leeds,74.04,2.827067893
 91,Yorkshire and The Humber,Richmondshire,78.53,4.650852878
 92,Yorkshire and The Humber,Rotherham,74.39,2.749388912
-93,Yorkshire and The Humber,Ryedale,458.07,178.5127987
-95,Yorkshire and The Humber,Selby,78.58,4.759307967
-96,Yorkshire and The Humber,Sheffield,73.77,3.704139435
-98,Yorkshire and The Humber,York,80.60,4.829004977
-103,East Midlands,Ashfield,68.69,3.114973605
-104,East Midlands,Bassetlaw,74.37,2.20002309
-106,East Midlands,Bolsover,80.19,4.946787223
-108,East Midlands,Broxtowe,67.26,3.143689618
-109,East Midlands,Charnwood,74.10,2.489626556
-110,East Midlands,Chesterfield,78.26,2.865714479
-111,East Midlands,Corby,92.59,21.37526039
-113,East Midlands,Derby,79.66,3.110619079
-120,East Midlands,High Peak,71.62,2.857963521
-121,East Midlands,Hinckley and Bosworth,77.34,2.893870399
-122,East Midlands,Kettering,81.18,2.913460174
-123,East Midlands,Leicester,72.17,3.730812608
-124,East Midlands,Lincoln,70.70,3.081454496
-125,East Midlands,Mansfield,74.56,2.520502211
-126,East Midlands,Melton,76.20,2.743593722
-127,East Midlands,Newark and Sherwood,80.10,2.950837416
-128,East Midlands,North East Derbyshire,78.88,1.979027575
-129,East Midlands,North Kesteven,76.97,4.928478627
-130,East Midlands,North West Leicestershire,79.99,2.898125846
-131,East Midlands,Northampton,85.00,2.83515298
-132,East Midlands,Nottingham,75.12,3.216444312
-133,East Midlands,Oadby and Wigston,77.54,4.67062635
-136,East Midlands,South Derbyshire,80.87,3.584174913
-137,East Midlands,South Holland,77.18,1.983000325
-138,East Midlands,South Kesteven,79.68,2.635272545
-145,West Midlands,Birmingham,82.12,2.550918442
-148,West Midlands,Cannock Chase,73.74,1.670545976
-150,West Midlands,Dudley,78.90,4.816580219
-157,West Midlands,North Warwickshire,85.73,2.812847855
-158,West Midlands,Nuneaton and Bedworth,78.70,2.818895315
-160,West Midlands,Redditch,79.39,2.725409995
-161,West Midlands,Rugby,84.75,2.955422061
-162,West Midlands,Sandwell,80.60,1.954086712
-164,West Midlands,Shropshire,83.26,2.51736768
-165,West Midlands,Solihull,81.65,2.893992625
-170,West Midlands,Stoke-on-Trent,71.20,3.135058405
-172,West Midlands,Tamworth,83.18,3.586763827
-175,West Midlands,Warwick,91.96,2.891212639
-176,West Midlands,Wolverhampton,79.58,2.892049461
-183,East of England,Babergh,91.60,2.941727279
-184,East of England,Basildon,88.67,3.200651769
-189,East of England,Brentwood,96.04,2.594561182
-192,East of England,Cambridge,104.44,3.314182733
-193,East of England,Castle Point,89.74,2.893636172
-194,East of England,Central Bedfordshire,103.00,2.958524923
-196,East of England,Colchester,87.62,2.743902439
-197,East of England,Dacorum,105.36,3.273867869
-200,East of England,East Suffolk,84.15,1.903802453
-201,East of England,Epping Forest,99.89,3.430654168
-204,East of England,Great Yarmouth,73.85,5.195253521
-205,East of England,Harlow,91.66,2.037181343
-208,East of England,Ipswich,83.21,3.611007347
-210,East of England,Luton,84.96,3.148488153
-213,East of England,Mid Suffolk,84.97,3.137625096
-216,East of England,Norwich,76.13,2.836687829
-220,East of England,South Cambridgeshire,105.36,3.127292022
-222,East of England,Southend-on-Sea,88.13,3.343159741
-223,East of England,St Albans,107.76,5.792263892
-225,East of England,Stevenage,97.68,2.668100748
-227,East of England,Tendring,82.20,3.461296413
-229,East of England,Thurrock,87.50,3.489669363
-230,East of England,Uttlesford,102.51,0.818834572
-233,East of England,Welwyn Hatfield,107.68,3.616252817
-234,East of England,West Suffolk,110.93,8.652134942
-238,London,Barking and Dagenham,97.02,1.57282385
-239,London,Barnet,104.61,3.190820188
-241,London,Brent,118.17,4.894193089
-243,London,Camden,113.68,1.973448152
-244,London,City of London,106.01,2.842452464
-245,London,Croydon,106.24,2.671040215
-246,London,Ealing,98.34,3.018789851
-247,London,Enfield,105.19,4.184876276
-248,London,Greenwich,91.68,2.826379542
-249,London,Hackney,101.58,3.357753358
-250,London,Hammersmith and Fulham,106.87,2.73985772
-251,London,Haringey,104.78,1.016341458
-252,London,Harrow,115.53,2.911219704
-253,London,Havering,100.53,4.176670509
-254,London,Hillingdon,111.47,2.755747709
-255,London,Hounslow,105.29,2.696957676
-256,London,Islington,121.17,2.890650606
-257,London,Kensington and Chelsea,123.25,2.716893074
-258,London,Kingston upon Thames,113.96,1.010091808
-259,London,Lambeth,109.88,2.452214452
-260,London,Lewisham,99.19,4.608732335
-261,London,Merton,100.92,18.03508772
-262,London,Newham,104.64,2.609944043
-263,London,Redbridge,108.80,3.766043409
-265,London,Southwark,104.99,2.110484342
-266,London,Sutton,112.24,3.79882178
-267,London,Tower Hamlets,112.29,2.979883005
-268,London,Waltham Forest,104.72,2.01656113
-269,London,Wandsworth,129.17,2.101282794
-270,London,Westminster,124.56,2.712954564
-274,South East,Adur,92.71,2.965348734
-275,South East,Arun,92.40,5.191256831
-276,South East,Ashford,97.25,4.974521484
-280,South East,Brighton and Hove,87.49,4.046136205
-282,South East,Canterbury,88.96,2.796394731
-283,South East,Cherwell,154.99,-1.687281954
-286,South East,Crawley,108.57,2.802675379
-287,South East,Dartford,91.48,3.114801595
-288,South East,Dover,85.64,2.704329737
-290,South East,Eastbourne,79.63,7.499268353
-294,South East,Fareham,93.01,4.283440918
-295,South East,Gosport,78.14,2.578273081
-296,South East,Gravesham,90.52,3.148330117
-297,South East,Guildford,113.90,2.981401659
-303,South East,Lewes,90.47,3.968206415
-305,South East,Medway,83.53,3.211966674
-307,South East,Milton Keynes,86.53,3.084975604
-308,South East,Mole Valley,124.44,2.167487685
-309,South East,New Forest,100.39,2.517503998
-310,South East,Oxford,106.07,2.488757032
-311,South East,Portsmouth,88.62,3.473152012
-312,South East,Reading,103.93,4.651641671
-315,South East,Runnymede,110.21,2.6325767
-318,South East,Shepway,85.57,3.133379566
-319,South East,Slough,106.22,3.297640485
-322,South East,Southampton,86.12,2.584271032
-326,South East,Tandridge,101.21,2.646783203
-328,South East,Thanet,83.33,3.449244597
-332,South East,Waverley,117.42,2.637301116
-333,South East,Wealden,90.82,3.076657326
-336,South East,Winchester,103.61,3.243518427
-338,South East,Woking,104.60,2.902115101
-339,South East,Wokingham,110.55,2.617655249
-347,South West,"Bournemouth, Christchurch & Poole",86.42,2.694160075
-348,South West,"Bristol, City of",81.37,2.623281624
-351,South West,Cheltenham,82.43,3.018246696
-353,South West,Cornwall,72.13,3.033616905
-356,South West,East Devon,81.72,2.785083222
-358,South West,Exeter,76.33,4.810530016
-361,South West,Isles of Scilly,75.80,-10.65570823
-366,South West,Mid Devon,80.45,4.572597151
-378,South West,Sedgemoor,78.47,3.426154559
-379,South West,Somerset West and Taunton,82.94,2.324045267
-381,South West,South Hams,140.33,0.007126568
-383,South West,Stroud,83.45,0.940961764
-384,South West,Swindon,82.87,3.035801318
-386,South West,Teignbridge,138.00,-0.339423702
-395,South West,Wiltshire,90.45,2.813766924
+94,Yorkshire and The Humber,Selby,78.58,4.759307967
+95,Yorkshire and The Humber,Sheffield,73.77,3.704139435
+97,Yorkshire and The Humber,York,80.60,4.829004977
+102,East Midlands,Ashfield,68.69,3.114973605
+103,East Midlands,Bassetlaw,74.37,2.20002309
+105,East Midlands,Bolsover,80.19,4.946787223
+107,East Midlands,Broxtowe,67.26,3.143689618
+108,East Midlands,Charnwood,74.10,2.489626556
+109,East Midlands,Chesterfield,78.26,2.865714479
+110,East Midlands,Corby,92.59,21.37526039
+112,East Midlands,Derby,79.66,3.110619079
+119,East Midlands,High Peak,71.62,2.857963521
+120,East Midlands,Hinckley and Bosworth,77.34,2.893870399
+121,East Midlands,Kettering,81.18,2.913460174
+122,East Midlands,Leicester,72.17,3.730812608
+123,East Midlands,Lincoln,70.70,3.081454496
+124,East Midlands,Mansfield,74.56,2.520502211
+125,East Midlands,Melton,76.20,2.743593722
+126,East Midlands,Newark and Sherwood,80.10,2.950837416
+127,East Midlands,North East Derbyshire,78.88,1.979027575
+128,East Midlands,North Kesteven,76.97,4.928478627
+129,East Midlands,North West Leicestershire,79.99,2.898125846
+130,East Midlands,Northampton,85.00,2.83515298
+131,East Midlands,Nottingham,75.12,3.216444312
+132,East Midlands,Oadby and Wigston,77.54,4.67062635
+135,East Midlands,South Derbyshire,80.87,3.584174913
+136,East Midlands,South Holland,77.18,1.983000325
+137,East Midlands,South Kesteven,79.68,2.635272545
+144,West Midlands,Birmingham,82.12,2.550918442
+147,West Midlands,Cannock Chase,73.74,1.670545976
+149,West Midlands,Dudley,78.90,4.816580219
+156,West Midlands,North Warwickshire,85.73,2.812847855
+157,West Midlands,Nuneaton and Bedworth,78.70,2.818895315
+159,West Midlands,Redditch,79.39,2.725409995
+160,West Midlands,Rugby,84.75,2.955422061
+161,West Midlands,Sandwell,80.60,1.954086712
+163,West Midlands,Shropshire,83.26,2.51736768
+164,West Midlands,Solihull,81.65,2.893992625
+169,West Midlands,Stoke-on-Trent,71.20,3.135058405
+171,West Midlands,Tamworth,83.18,3.586763827
+174,West Midlands,Warwick,91.96,2.891212639
+175,West Midlands,Wolverhampton,79.58,2.892049461
+182,East of England,Babergh,91.60,2.941727279
+183,East of England,Basildon,88.67,3.200651769
+188,East of England,Brentwood,96.04,2.594561182
+191,East of England,Cambridge,104.44,3.314182733
+192,East of England,Castle Point,89.74,2.893636172
+193,East of England,Central Bedfordshire,103.00,2.958524923
+195,East of England,Colchester,87.62,2.743902439
+196,East of England,Dacorum,105.36,3.273867869
+199,East of England,East Suffolk,84.15,1.903802453
+200,East of England,Epping Forest,99.89,3.430654168
+203,East of England,Great Yarmouth,73.85,5.195253521
+204,East of England,Harlow,91.66,2.037181343
+207,East of England,Ipswich,83.21,3.611007347
+209,East of England,Luton,84.96,3.148488153
+212,East of England,Mid Suffolk,84.97,3.137625096
+215,East of England,Norwich,76.13,2.836687829
+219,East of England,South Cambridgeshire,105.36,3.127292022
+221,East of England,Southend-on-Sea,88.13,3.343159741
+222,East of England,St Albans,107.76,5.792263892
+224,East of England,Stevenage,97.68,2.668100748
+226,East of England,Tendring,82.20,3.461296413
+228,East of England,Thurrock,87.50,3.489669363
+229,East of England,Uttlesford,102.51,0.818834572
+232,East of England,Welwyn Hatfield,107.68,3.616252817
+233,East of England,West Suffolk,110.93,8.652134942
+237,London,Barking and Dagenham,97.02,1.57282385
+238,London,Barnet,104.61,3.190820188
+240,London,Brent,118.17,4.894193089
+242,London,Camden,113.68,1.973448152
+243,London,City of London,106.01,2.842452464
+244,London,Croydon,106.24,2.671040215
+245,London,Ealing,98.34,3.018789851
+246,London,Enfield,105.19,4.184876276
+247,London,Greenwich,91.68,2.826379542
+248,London,Hackney,101.58,3.357753358
+249,London,Hammersmith and Fulham,106.87,2.73985772
+250,London,Haringey,104.78,1.016341458
+251,London,Harrow,115.53,2.911219704
+252,London,Havering,100.53,4.176670509
+253,London,Hillingdon,111.47,2.755747709
+254,London,Hounslow,105.29,2.696957676
+255,London,Islington,121.17,2.890650606
+256,London,Kensington and Chelsea,123.25,2.716893074
+257,London,Kingston upon Thames,113.96,1.010091808
+258,London,Lambeth,109.88,2.452214452
+259,London,Lewisham,99.19,4.608732335
+260,London,Merton,100.92,18.03508772
+261,London,Newham,104.64,2.609944043
+262,London,Redbridge,108.80,3.766043409
+264,London,Southwark,104.99,2.110484342
+265,London,Sutton,112.24,3.79882178
+266,London,Tower Hamlets,112.29,2.979883005
+267,London,Waltham Forest,104.72,2.01656113
+268,London,Wandsworth,129.17,2.101282794
+269,London,Westminster,124.56,2.712954564
+273,South East,Adur,92.71,2.965348734
+274,South East,Arun,92.40,5.191256831
+275,South East,Ashford,97.25,4.974521484
+279,South East,Brighton and Hove,87.49,4.046136205
+281,South East,Canterbury,88.96,2.796394731
+282,South East,Cherwell,154.99,-1.687281954
+285,South East,Crawley,108.57,2.802675379
+286,South East,Dartford,91.48,3.114801595
+287,South East,Dover,85.64,2.704329737
+289,South East,Eastbourne,79.63,7.499268353
+293,South East,Fareham,93.01,4.283440918
+294,South East,Gosport,78.14,2.578273081
+295,South East,Gravesham,90.52,3.148330117
+296,South East,Guildford,113.90,2.981401659
+302,South East,Lewes,90.47,3.968206415
+304,South East,Medway,83.53,3.211966674
+306,South East,Milton Keynes,86.53,3.084975604
+307,South East,Mole Valley,124.44,2.167487685
+308,South East,New Forest,100.39,2.517503998
+309,South East,Oxford,106.07,2.488757032
+310,South East,Portsmouth,88.62,3.473152012
+311,South East,Reading,103.93,4.651641671
+314,South East,Runnymede,110.21,2.6325767
+317,South East,Shepway,85.57,3.133379566
+318,South East,Slough,106.22,3.297640485
+321,South East,Southampton,86.12,2.584271032
+325,South East,Tandridge,101.21,2.646783203
+327,South East,Thanet,83.33,3.449244597
+331,South East,Waverley,117.42,2.637301116
+332,South East,Wealden,90.82,3.076657326
+335,South East,Winchester,103.61,3.243518427
+337,South East,Woking,104.60,2.902115101
+338,South East,Wokingham,110.55,2.617655249
+346,South West,"Bournemouth, Christchurch & Poole",86.42,2.694160075
+347,South West,"Bristol, City of",81.37,2.623281624
+350,South West,Cheltenham,82.43,3.018246696
+352,South West,Cornwall,72.13,3.033616905
+355,South West,East Devon,81.72,2.785083222
+357,South West,Exeter,76.33,4.810530016
+360,South West,Isles of Scilly,75.80,-10.65570823
+365,South West,Mid Devon,80.45,4.572597151
+377,South West,Sedgemoor,78.47,3.426154559
+378,South West,Somerset West and Taunton,82.94,2.324045267
+380,South West,South Hams,140.33,0.007126568
+382,South West,Stroud,83.45,0.940961764
+383,South West,Swindon,82.87,3.035801318
+385,South West,Teignbridge,138.00,-0.339423702
+394,South West,Wiltshire,90.45,2.813766924
