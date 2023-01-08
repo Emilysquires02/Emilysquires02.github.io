@@ -1,4 +1,4 @@
-,Unnamed: 0,Lower and Single Tier Authority Data,2020-21,Price rise 
+,Area,Lower and Single Tier Authority Data,2020-21,Price rise 
 8,North East,Darlington,78.67,8.415499031
 12,North East,Gateshead,76.51,2.747593944
 13,North East,Hartlepool,84.76,0.319564445
@@ -10,7 +10,7 @@
 33,North West,Blackpool,72.04,3.139469979
 36,North West,Bury,74.28,2.998787517
 39,North West,Cheshire West and Chester,78.83,2.885291338
-41,North West,Chorley,151.10,-21.64894996
+41,North West,Chorley,151.1,-21.64894996
 51,North West,Lancaster,72.77,3.029873991
 52,North West,Liverpool,85.54,0.105324751
 54,North West,Manchester,76.18,2.686207537
@@ -35,12 +35,12 @@
 92,Yorkshire and The Humber,Rotherham,74.39,2.749388912
 94,Yorkshire and The Humber,Selby,78.58,4.759307967
 95,Yorkshire and The Humber,Sheffield,73.77,3.704139435
-97,Yorkshire and The Humber,York,80.60,4.829004977
+97,Yorkshire and The Humber,York,80.6,4.829004977
 102,East Midlands,Ashfield,68.69,3.114973605
 103,East Midlands,Bassetlaw,74.37,2.20002309
 105,East Midlands,Bolsover,80.19,4.946787223
 107,East Midlands,Broxtowe,67.26,3.143689618
-108,East Midlands,Charnwood,74.10,2.489626556
+108,East Midlands,Charnwood,74.1,2.489626556
 109,East Midlands,Chesterfield,78.26,2.865714479
 110,East Midlands,Corby,92.59,21.37526039
 112,East Midlands,Derby,79.66,3.110619079
@@ -48,14 +48,14 @@
 120,East Midlands,Hinckley and Bosworth,77.34,2.893870399
 121,East Midlands,Kettering,81.18,2.913460174
 122,East Midlands,Leicester,72.17,3.730812608
-123,East Midlands,Lincoln,70.70,3.081454496
+123,East Midlands,Lincoln,70.7,3.081454496
 124,East Midlands,Mansfield,74.56,2.520502211
-125,East Midlands,Melton,76.20,2.743593722
-126,East Midlands,Newark and Sherwood,80.10,2.950837416
+125,East Midlands,Melton,76.2,2.743593722
+126,East Midlands,Newark and Sherwood,80.1,2.950837416
 127,East Midlands,North East Derbyshire,78.88,1.979027575
 128,East Midlands,North Kesteven,76.97,4.928478627
 129,East Midlands,North West Leicestershire,79.99,2.898125846
-130,East Midlands,Northampton,85.00,2.83515298
+130,East Midlands,Northampton,85,2.83515298
 131,East Midlands,Nottingham,75.12,3.216444312
 132,East Midlands,Oadby and Wigston,77.54,4.67062635
 135,East Midlands,South Derbyshire,80.87,3.584174913
@@ -63,24 +63,24 @@
 137,East Midlands,South Kesteven,79.68,2.635272545
 144,West Midlands,Birmingham,82.12,2.550918442
 147,West Midlands,Cannock Chase,73.74,1.670545976
-149,West Midlands,Dudley,78.90,4.816580219
+149,West Midlands,Dudley,78.9,4.816580219
 156,West Midlands,North Warwickshire,85.73,2.812847855
-157,West Midlands,Nuneaton and Bedworth,78.70,2.818895315
+157,West Midlands,Nuneaton and Bedworth,78.7,2.818895315
 159,West Midlands,Redditch,79.39,2.725409995
 160,West Midlands,Rugby,84.75,2.955422061
-161,West Midlands,Sandwell,80.60,1.954086712
+161,West Midlands,Sandwell,80.6,1.954086712
 163,West Midlands,Shropshire,83.26,2.51736768
 164,West Midlands,Solihull,81.65,2.893992625
-169,West Midlands,Stoke-on-Trent,71.20,3.135058405
+169,West Midlands,Stoke-on-Trent,71.2,3.135058405
 171,West Midlands,Tamworth,83.18,3.586763827
 174,West Midlands,Warwick,91.96,2.891212639
 175,West Midlands,Wolverhampton,79.58,2.892049461
-182,East of England,Babergh,91.60,2.941727279
+182,East of England,Babergh,91.6,2.941727279
 183,East of England,Basildon,88.67,3.200651769
 188,East of England,Brentwood,96.04,2.594561182
 191,East of England,Cambridge,104.44,3.314182733
 192,East of England,Castle Point,89.74,2.893636172
-193,East of England,Central Bedfordshire,103.00,2.958524923
+193,East of England,Central Bedfordshire,103,2.958524923
 195,East of England,Colchester,87.62,2.743902439
 196,East of England,Dacorum,105.36,3.273867869
 199,East of England,East Suffolk,84.15,1.903802453
@@ -95,8 +95,8 @@
 221,East of England,Southend-on-Sea,88.13,3.343159741
 222,East of England,St Albans,107.76,5.792263892
 224,East of England,Stevenage,97.68,2.668100748
-226,East of England,Tendring,82.20,3.461296413
-228,East of England,Thurrock,87.50,3.489669363
+226,East of England,Tendring,82.2,3.461296413
+228,East of England,Thurrock,87.5,3.489669363
 229,East of England,Uttlesford,102.51,0.818834572
 232,East of England,Welwyn Hatfield,107.68,3.616252817
 233,East of England,West Suffolk,110.93,8.652134942
@@ -123,7 +123,7 @@
 259,London,Lewisham,99.19,4.608732335
 260,London,Merton,100.92,18.03508772
 261,London,Newham,104.64,2.609944043
-262,London,Redbridge,108.80,3.766043409
+262,London,Redbridge,108.8,3.766043409
 264,London,Southwark,104.99,2.110484342
 265,London,Sutton,112.24,3.79882178
 266,London,Tower Hamlets,112.29,2.979883005
@@ -131,7 +131,7 @@
 268,London,Wandsworth,129.17,2.101282794
 269,London,Westminster,124.56,2.712954564
 273,South East,Adur,92.71,2.965348734
-274,South East,Arun,92.40,5.191256831
+274,South East,Arun,92.4,5.191256831
 275,South East,Ashford,97.25,4.974521484
 279,South East,Brighton and Hove,87.49,4.046136205
 281,South East,Canterbury,88.96,2.796394731
@@ -143,7 +143,7 @@
 293,South East,Fareham,93.01,4.283440918
 294,South East,Gosport,78.14,2.578273081
 295,South East,Gravesham,90.52,3.148330117
-296,South East,Guildford,113.90,2.981401659
+296,South East,Guildford,113.9,2.981401659
 302,South East,Lewes,90.47,3.968206415
 304,South East,Medway,83.53,3.211966674
 306,South East,Milton Keynes,86.53,3.084975604
@@ -161,7 +161,7 @@
 331,South East,Waverley,117.42,2.637301116
 332,South East,Wealden,90.82,3.076657326
 335,South East,Winchester,103.61,3.243518427
-337,South East,Woking,104.60,2.902115101
+337,South East,Woking,104.6,2.902115101
 338,South East,Wokingham,110.55,2.617655249
 346,South West,"Bournemouth, Christchurch & Poole",86.42,2.694160075
 347,South West,"Bristol, City of",81.37,2.623281624
@@ -169,12 +169,12 @@
 352,South West,Cornwall,72.13,3.033616905
 355,South West,East Devon,81.72,2.785083222
 357,South West,Exeter,76.33,4.810530016
-360,South West,Isles of Scilly,75.80,-10.65570823
+360,South West,Isles of Scilly,75.8,-10.65570823
 365,South West,Mid Devon,80.45,4.572597151
 377,South West,Sedgemoor,78.47,3.426154559
 378,South West,Somerset West and Taunton,82.94,2.324045267
 380,South West,South Hams,140.33,0.007126568
 382,South West,Stroud,83.45,0.940961764
 383,South West,Swindon,82.87,3.035801318
-385,South West,Teignbridge,138.00,-0.339423702
+385,South West,Teignbridge,138,-0.339423702
 394,South West,Wiltshire,90.45,2.813766924
