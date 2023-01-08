@@ -15,11 +15,7 @@
   "selection": {
     "paintbrush": {"type": "multi", "on": "mouseover", "nearest": true},
     "grid": {"type": "interval", "bind": "scales"},
-    "divisionSelect": {
-      "type": "multi",
-      "fields": ["Unname: 0"],
-      "bind": "legend"
-    }
+    "divisionSelect": {"type": "multi", "fields": ["Area"], "bind": "legend"}
   },
   "height": 300,
   "width": 300,
@@ -36,7 +32,7 @@
       "title": "Weekly private rent"
     },
     "color": {
-      "field": "Unnamed: 0",
+      "field": "Area",
       "type": "ordinal",
       "title": null,
       "scale": {"scheme": "turbo"}
@@ -52,7 +48,7 @@
       "legend": null
     },
     "tooltip": [
-      {"field": "Unnamed: 0", "type": "ordinal", "title": "Area"},
+      {"field": "Area", "type": "ordinal", "title": "Area"},
       {
         "field": "Lower and Single Tier Authority Data",
         "type": "ordinal",
