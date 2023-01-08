@@ -19,63 +19,130 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 <div>
-    <a href="index.html" id="link1">link to my project</a>
+    <a href="index.html" id="button">link to my project</a>
 
-    <a href="portfolio.html" id="link2">link to my portfolio</a>
+    <a href="portfolio.html" id="button">link to my portfolio</a>
 
-    <a href="about.html" id="link3">about me</a>
+    <a href="about.html" id="button">about me</a>
 
 
 </div>
 <body>
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
-    <div class="myWeek1">
-        <h1>Portfolio.</h1>
+    <div >
+        <h1>Portfolio</h1>
         
-        <h3> Week 1 </h3>
-        <p> In week 1 we worked on embedding charts
-        <p>The first chart tracks CO2 emissions in tonnes per capita using data from Global Carbon Project </p>
+        <h3> Week 1 - Setting up</h3>
+        <h4> In week 1 we worked on embedding charts </h4>
+        <h4>The first chart tracks CO2 emissions in tonnes per capita using data from Global Carbon Project </h4>
         <div class="chart" id="Chart1"></div>
 
         
-        <p>Export of goods at current prices (£m) using data from ONS website </p>
+        <h4>Export of goods at current prices (£m) using data from ONS website </h4>
         <div class="chart" id="Chart2"> </div>
 
-
-        <h3> Week 2 </h3>
-        <h4>IMF credit outstanding data </h4>
-        <p> This data was taken from the IMF webiste and the first chart replicates a chart which was used in the Financial Times </p> 
+        <h3> Week 2 - Replicating FT chart</h3>
+        <h4> This data was taken from the IMF webiste and the first chart replicates a chart which was used in the Financial Times </h4> 
         <div class="chart" id="Chart3"> </div>
-
-        <h4>Lending adjusted</h4>
-        <p> IMF Credit Outstanding as a percentage of global GDP (using data from the World bank).
-            Here we have adjusted the data to real terms and it shows the most "risky" year was 1984 as this was when IMF lending was highest as a percentage of global GDP
-        </p> 
+        <h4>After adjusting the data to real terms the most "risky" year was 1984 - when IMF lending was highest as a percentage of global GDP        </h4> 
         <div class="chart" id="Chart4"> </div>
 
-        <h3> Week 3 </h3>
-        <h4>Daily Yields </h4>
-        <p> This chart was created using a csv dataset </p> 
+
+
+        <h3> Week 3 - Visual Encoding </h3>
+        <h4>This chart was created using a csv dataset </h4>
         <div class="chart" id="Chart5"> </div>
 
-        <h4>Urban Population </h4>
-        <p> This chart was create by using Google colab to clean the data then exporting JSON using the python data conversion pipelines. The data source is defined
-            inline, in the Vega-lite specification </p> 
-        <div class="chart" id="Chart7"> </div>
+        <h4> This chart was create by using <a href="https://colab.research.google.com/drive/1Ik9gJRhKWRKNLS_Z5_kjedwPWRBicJWw?usp=sharing" id="link" >Google Colab</a>
+         to clean the data then exporting JSON using the python data conversion pipelines. The data source is defined inline, in the Vega-lite specification </h4> 
 
-        <h4>Urban Population </h4>
-        <p> This is using the same data as above however with a different visual encoding. The use of area in this chart is more attractive. According to Steven's Power law, identification of area is more accurate than colour. It is slightly difficult though as the UAE's population is so small </p> 
-        <div class="chart" id="Chart8"> </div>
+         <div class="chart" id="Chart7"> </div>
+         <h4>Different visual encoding</h4>
+         <div class="chart" id="Chart8"> </div>
+
+         <h4>The use of area in this chart is more attractive. According to Steven's Power law, identification of area is more accurate than colour. </h4> 
+
+
 
         
-        <h3> Week 4 </h3>
-        <h4> Yearly Percentage Change in Rental Prices  </h4>
-        <p> Using a dataset from the Office of National Statistics I have visually shown the percentage change in annual rental prices using data scraping </p> 
-        <p>link to the Google Colab area where I analysed the data:  https://colab.research.google.com/drive/13ISKVbTGoFkKsiwoji1mAPW4uBM9mptg?usp=sharing </p> 
+        <h3> Week 4 - Data scraping</h3>
+        <p>link to the Google Colab area where I analysed the data is <a href="https://colab.research.google.com/drive/11tgRMTlrDekbcu8N9qd4k8DazCaQy2FQ?usp=sharing" id="link" >here</a>.</p>
+        <h4>I chose Wikipedia as you can easily scrape data from and it had the most accessible data for all the universities </h4>
         <div class="chart" id="Chart6"> </div>
+    
 
+
+        <h3> Week 5 - ONS API</h3>
+        <h4>link to the Google Colab area where I created loops for the data is <a href="https://colab.research.google.com/drive/1AgHtLy3SoHyyEC3O8XQLi9-3N5omrmWX?usp=sharing" id="link" >here</a>.</h4>
+
+
+        <div class="container">
+            <div class="item-a" id = "Chart10"></div> 
+            <div class="item-a" id = "Chart11"></div>
+            <div class="item-a" id = "Chart12"></div>
+            <div class="item-a" id = "Chart13"></div>
+            <div class="item-a" id = "Chart14"></div>
+            <div class="item-a" id = "Chart15"></div>
+            <div class="item-a" id = "Chart16"></div>
+            <div class="item-a" id = "Chart17"></div>
+            <div class="item-a" id = "Chart9"></div>
+          </div>
+
+
+
+
+         <h3> Week 7 - Chloropleth map</h3>
+        <h4> This map shows that inflation is a lot higher in Eastern European countries compared to Western Europe- likely due to the Ukraine invasion. 
+        </h4>
+       
+
+        <div class="chart" id="Chart18"> </div>
+        <div class="chart" id="Chart21"> </div>
+        <p> There are some countries missing due to missing inflation data. 
+        </p>
+
+
+
+
+
+        <h3> Week 8 - Festival of Economics </h3>
+        <h4> Arthur Turrel spoke about the advantages of collecting big data and the positives that the ONS can do with this data.</h4>
+
+        <div class="chart" id="Chart19"> </div>
+        <div class="chart" id="Chart20"> </div>
+        <h4>Here we can see that advantages, inflation differs for individuals in low and high income households - this can affect decisions policymakers may make </p> 
+        </h4>
+        <p><a href="https://colab.research.google.com/drive/1BBqx06L4-KaBDNFje87ZIy6WjI86YfFw?usp=sharing" id="link" >link</a> to the Google Colab area where I created edited the data  
+        </p>
+
+
+    <h3> Week 9 - Advanced charts</h3>
+        <p> </p>
+
+        <div class="chart" id="Chart22"> </div>
+        
+        <h4><a href="https://github.com/Emilysquires02/Emilysquires02.github.io/blob/main/DOfile-detrending" id="link" >link</a>    to the Stata file where I detreded the data   
+        </h4>
+
+        <div class="chart" id="Chart23"> </div>
 
     </div> 
+    <h3> Week 10 - Machine learning</h3>
+</div>
+<h4>Supervised learning</h4>
+<p>    I hypothesise that there will be a positive relationship between government spending on education and literacy rate in adults for all countries in 2020. </p>
+<h4><a href="https://colab.research.google.com/drive/1Ssmy5E5UHKog7xJg4JhRss1lzgDG8_Ct?usp=sharing" id="link" >link</a> to the Google Colab area where I performed sklearn for both tasks 
+</h4>
+<img src="./linear regression.jpg" alt="Government expenditure on education vs Adult literacy rates" width="400" height="350">
+<p> The figure matches the hypothesis. It also predicts that there is no reason for a government to spend over 7% of its expenditure on education as there will be 100% literacy rates. </p>
+</div>
+<div>
+    <h4>Unsupervised learning</h4>
+<p> I hypothesise that there is large enough differences between inflation and GDP in China and the US since 1970’s so machine learning can cluster them.  </p>
+<img src="scatter plot.jpg" alt="Inflation vs GDP original" width="400" height="350">
+<img src="clustered inflation.jpg" alt="Inflation vs GDP 1 - machine learning " width="400" height="350">
+<p>This result suggests that there are not large enough differences for machine learning to be able to distinguish the two countries. </p>
+</div>
 </body>
 
 
@@ -86,9 +153,33 @@
     var myChart3 = "IMF - credit_outstanding.json";
     var myChart4 = "IMF lending.json";
     var myChart5 = "Daily yields.json";
-    var myChart6 = "Rental change.json";
+    var myChart6 = "Total_students.json";
     var myChart7 = "Urban Population.json";
     var myChart8 = "Urban Pop area.json";
+    var myChart9 = "employment.json";
+    var myChart10 = "part_time ill.json";
+    var myChart11 = "female unemployment.json";
+    var myChart12 = "male unemployment.json";
+    var myChart13 = "unemployment rate.json";
+    var myChart14 = "IT and commun.json";
+    var myChart15 = "redundancy rate.json";
+    var myChart16 = "Average weekly earnings.json";
+    var myChart17 = "Average weekly hours.json";
+    var myChart18 = "europe.json";
+    var myChart21 = "2021_chloropleth1.json";
+    var myChart19 = "House inflation.json";
+    var myChart20 = "Food inflation.json";
+    var myChart22 = "error calculations.json";
+    var myChart23 = "Heatmap.json";
+
+
+
+
+
+
+
+
+
 
 
 
@@ -104,6 +195,27 @@
     vegaEmbed('#Chart6', myChart6);
     vegaEmbed('#Chart7', myChart7);
     vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
+    vegaEmbed('#Chart11', myChart11);
+    vegaEmbed('#Chart12', myChart12);
+    vegaEmbed('#Chart13', myChart13);
+    vegaEmbed('#Chart14', myChart14);
+    vegaEmbed('#Chart15', myChart15);
+    vegaEmbed('#Chart16', myChart16);
+    vegaEmbed('#Chart17', myChart17);
+    vegaEmbed('#Chart18', myChart18);
+    vegaEmbed('#Chart19', myChart19);
+    vegaEmbed('#Chart20', myChart20);
+    vegaEmbed('#Chart21', myChart21);
+    vegaEmbed('#Chart22', myChart22);
+    vegaEmbed('#Chart23', myChart23);
+
+
+
+
+
+
 
 
 
