@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "UK Weekly rent vs price rise",
   "title": {
-    "text": "UK Weekly rent vs price rise",
+    "text": "UK Weekly rent vs price rise 2020-21",
     "subtitle": ["Source: 0NS and own calculations"],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,

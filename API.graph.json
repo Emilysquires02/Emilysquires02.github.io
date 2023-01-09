@@ -1,0 +1,80 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://api.factmaven.com/xml-to-json/?xml=https://api.worldbank.org/v2/country/GBR/indicator/SE.TER.ENRR",
+    "format": {"property": "data.data"}
+  },
+  "title": {
+    "text": "Tertiary school enrollment",
+    "subtitle": [
+      "Ratio of total enrollment to population of age group for the level of education",
+      "UK. Source:World Bank"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 300,
+  "height": 300,
+  "mark": {"type": "line", "color": "black", "strokeWidth": 3, "opacity": 2},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": null},
+    "scale": {"domain": [0, 2020]}
+  },
+  "layer": [
+    {
+      "encoding": {
+        "y": {"field": "value", "type": "quantitative", "title": null}
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "align": false,
+            "interpolate": "step",
+            "color": "pink"
+          }
+        },
+        {
+          "transform": [{"filter": {"selection": "hover"}}],
+          "mark": {"type": "circle", "size": 100, "color": "pink"}
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0, "selection": "hover"},
+          "value": 0
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "temporal",
+            "format": "%Y",
+            "title": "Year"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "format": ",.2f",
+            "title": "Gross enrollment (%)"
+          }
+        ]
+      },
+      "selection": {
+        "hover": {
+          "type": "single",
+          "fields": ["date"],
+          "nearest": true,
+          "on": "mouseover",
+          "empty": "none",
+          "clear": "mouseout"
+        }
+      }
+    }
+  ],
+  "config": {}
+}

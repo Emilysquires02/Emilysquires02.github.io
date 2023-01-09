@@ -10,8 +10,8 @@
     "color": "black"
   },
   "config": {},
-  "width": 160,
-  "height": 300,
+  "width": 350,
+  "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/jhellingsdata/jhellingsdata.github.io/main/Data/UK%20Map%20Data/ITL3_2021_20m.geojson",
     "format": {"property": "features"}

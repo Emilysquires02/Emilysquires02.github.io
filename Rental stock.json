@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Sugar 4b",
+  "width": 260,
+  "height": 300,
+  "title": {
+    "text": "Total and percentage change of privately rented houses in England ",
+    "subtitle": [
+      "Source: ONS and own calculations",
+      "Data from 2012 is provisional"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/Housing_Chart5.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "sort": ["0"],
+      "title": "",
+      "axis": {"labelAngle": 60, "labelFontSize": 6}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"opacity": 0.5, "type": "bar", "color": "#27c231"},
+      "encoding": {
+        "y": {
+          "field": "Total privately rented",
+          "type": "quantitative",
+          "title": "Number of privately rented houses",
+          "axis": {"titleColor": "#27c231"}
+        }
+      }
+    },
+    {
+      "mark": {"stroke": "#601f9c", "type": "line", "interpolate": "monotone"},
+      "encoding": {
+        "y": {
+          "field": "Percentage change from the previous year ",
+          "type": "quantitative",
+          "title": "Percentage change from the previous year (%)",
+          "axis": {"titleColor": "#601f9c"}
+        }
+      }
+    }
+  ],
+  "resolve": {"scale": {"y": "independent"}},
+  "config": {}
+}

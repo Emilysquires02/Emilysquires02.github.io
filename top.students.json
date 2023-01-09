@@ -35,14 +35,15 @@
     {"filter": "datum.year==selectedDate"},
     {"calculate": "datum.value/1000", "as": "per 1000"}
   ],
-  "mark": {"type": "bar", "size": 5.5},
-  "color": {"scale": {"scheme": "set2"}, "legend": "null"},
+  "mark": {"type": "bar", "size": 5.5, "tooltip": true},
+  "color": {"scale": {"scheme": "greys"}, "legend": "null"},
   "encoding": {
     "x": {
       "field": "per 1000",
       "type": "quantitative",
       "title": "Number of students (per 1000)",
-      "axis": {"grid": false}
+      "axis": {"grid": false},
+      "scale": {"domain": [0, 48]}
     },
     "y": {
       "field": "HE provider",
@@ -52,18 +53,15 @@
         "grid": false,
         "ticks": false,
         "labelAngle": 0,
-        "labelFontSize": 9
+        "labelFontSize": 8
       }
     },
     "color": {
       "field": "HE provider",
       "legend": null,
       "scale": {"scheme": "set2"}
+     
     }
   },
-  "tooltip": [
-    {"field": "HE provider", "type": "nominal", "title": "University"},
-    {"field": "per 1000", "type": "quantitative", "title": "Number of students"}
-  ],
   "config": {}
 }
