@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,21 +19,134 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 <div>
-<p>
-    <a href="project.html" id="link1">link to my project</a>
-</p>
-    <a href="portfolio.html" id="link2">link to my portfolio</a>
-</p>
-    <a href="about.html" id="link3">about me</a>
-</p>
-    <a href="cv.html" id="link4">link to my cv</a>
+    <a href="index.html" id="button">link to my project</a>
+
+    <a href="portfolio.html" id="button">link to my portfolio</a>
+
+    <a href="about.html" id="button">about me</a>
+
+
 </div>
-
 <body>
+
+
+<h1> Are students worse effected by the rent crisis? </h1>
+
+<container class="containerborder">
+
+<h3>Aims </h3>
+<p>After 3 years of university I know all too well about the yearly struggle of trying to find housing. Finding an adequate property as a student with a minimal budget seems impossible at times. It is highly popular in the UK for students to move away for university and therefore, this creates a high demand for student properties. In this project I want to outline the extent of this problem, the reason for it and any possible solutions. </p>
+</container>
+
+
+
+<p>Firstly, enrolment into tertiary education has largely increased over the past 50 years. We can break this down more recently by looking at the number of students at the UK's largest universities we can see that all the universities increased their student intakes over the 6 years, other than Leeds Beckett and the University of South Wales. This illustrates a growing demand for rental properties in areas surrounding a university. </p>
+<h4>Chart1</h4>
+<div class="chart" id="Chart_5"> </div>
+</div>
+<script>
+    var myChart_5 = "API.graph.json";
+    vegaEmbed('#Chart_5', myChart_5);
+    </script>
+<h4>Chart2</h4>
+<div class="chart" id="Chart_2"> </div>
+</div>
+<script>
+    var myChart_2 = "top.students.json";
+    vegaEmbed('#Chart_2', myChart_2);
+    </script>
+
+
+
+<p>
+    We can now see the number of private renters in the UK – many of the areas with high levels of renting also have high student populations showing how student are not just competing against other students when looking for rental housing . 
+</p>
+<h4>Chart3</h4>
+<div class="chart" id="Chart_1"> </div>
+</div>
+<script>
+    var myChart_1 = "rental map.json";
+    vegaEmbed('#Chart_1', myChart_1);
+    </script>
+<h4>Chart4</h4>
+<div class="chart" id="Chart_4"> </div>
+<script>
+    var myChart_4 = "UK students map.json";
+    vegaEmbed('#Chart_4', myChart_4);
+    </script>
+    
+</p>
+
+<p> I have detrended the index of rental prices to show how rental prices are increasing above the usual trend. We can see large increases in the North West and West Midlands which our chart above shows us is some of the most student populous areas.  </p>
+<h4>Chart5</h4>
+
+            <div class="chart" id="Chart_7"> </div>
+            <script>
+             var myChart_7= "Error-value-rent.json";
+             vegaEmbed('#Chart_7', myChart_7);
+         </script>
+             <div>
+            
+                
+
+
+                <p>This large demand for rental properties is causing year-on-year increases in rent. Here we can see that nearly all regions are facing a percentage price rise on their average weekly rents  </p>
+
+    </script>
+    <div>
+        <h4>Chart6</h4>
+
+      <div class="chart" id="Chart_9"> </div>
+                    <script>
+                     var myChart_9= "Weekly rent vs price rise.json";
+                     vegaEmbed('#Chart_9', myChart_9);
+                 </script>
+                     <div>
+                    </script>
+                    <p>Despite the increasing demand from students for rental properties and prices increasing above trend levels the number of rental houses available has been slowing in growth in recent years according to provisional data from the ONS. </p>
+                    <div>
+                        <h4>Chart7</h4>
+
+                       <div class="chart" id="Chart_10"> </div>
+                       <script>
+                        var myChart_10= "Rental stock.json";
+                        vegaEmbed('#Chart_10', myChart_10);
+                    </script>
+                        <div>
+
+
+                            <container class="containerborder">
+<p>
+    Overall, I believe students are the worse effected by the rent crisis. Students are in the areas where there is increasing demand and no new supply of housing rents meaning rents will only continue to rise.  Furthermore, as many students don’t have jobs or they have part-time jobs they cannot compete for housing financially – making them less ideal for landlords. 
+</p>
+<p>It looks like the student rental problem is unlikely to be solved without Government intervention because of the rising rent prices, increase in student intake from universities and falling frowth in rental properties</p>
+<p>To look into this further, it would be interesting to compare certain area’s in more detail – such as comparing the North West and South West. </p>
+
+</container>
+
+
+                            <container class="containerborder">
+
+
+                            <h3>Data </h3>
+<p>I took a lot of my data from the ONS and HESA as well as the world bank API. I could use the ONS API for some datasets however some of them were not available to use through the API, such as data for the weekly rent chart and the total number of privately rents houses chart. For these and the HESA data I could just download the CSV and edit the data in Google Colab. </p>
+<p> For chart 2 I edited the chart <p><a href="https://colab.research.google.com/drive/1XX0p6ZpPtnPueKgm8PD_16AhXPY6AgBC?usp=sharing" id="link" >here</a>. As I downloaded the data from CVS and it all came separately I had to merge all the data in python. </p>
+<p>
+    The most difficult charts were the maps. For chart3 I got my data from the ONS API but I then converted it into CVS so that I could use the Excel geography function to add the longitude and latitude points to the data. <p><a href="https://colab.research.google.com/drive/1Z096cOR7na08ilMbKTM36SioPCo_jnFO?usp=sharing" id="link" >Click</a> for the Google Colab. Furthermore, for map 2 (I used the same data as chart1) I also used the Excel geography function to add the longitude and latitude points to the datasets. Whilst this function was useful, it didn’t work for all of the points so some of the points I had to manually input the co-ordinates. 
+</p>
+
+<p>I used <a href="https://github.com/Emilysquires02/Emilysquires02.github.io/blob/main/DOfile-detrending" id="link" >Stata</a>  
+    to detrend the data for chart 5.</p>
+
+
+
+<p>For the final 2 charts I calculated the percentage change’s in excel to easily illustrate how the variable have moved over time. </p>
+                        </container>
+
+
+    <p></p>
+    
+
    
-
-</script>
-
-</html>
 
 
