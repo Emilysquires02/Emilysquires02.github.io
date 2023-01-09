@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Housing and Utility Inflation - high vs low households",
+    "subtitle": "Households in the second and forth quintile - Source: ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/housing%20and%20water.json",
+    "format": {"type": "json"}
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "line"},
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "Inflation",
+      "type": "quantitative",
+      "title": "Inflation (%)",
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "Category",
+      "type": "nominal",
+      "scale": {"scheme": "set1"},
+      "title": null,
+      "legend": {
+        "orient": "top-left",
+        "labelExpr": "{'Housing, water, electricity, gas and other fuels_y':'High Income', 'Housing, water, electricity, gas and other fuels_x': 'Low Income'}[datum.label]"
+      }
+    }
+  },
+  "config": {}
+}
