@@ -120,7 +120,7 @@
     "anchor": "start",
     "color": "black"
   },
-  "width": 350,
+  "width": 500,
   "height": 350,
   "encoding": {
     "x": {
@@ -128,7 +128,7 @@
       "type": "nominal",
       "sort": "-y",
       "title": null,
-      "axis": {"labelExpr": 0}
+      "axis": {"labelExpr": "0"}
     },
     "y": {
       "field": "Total",
@@ -136,13 +136,9 @@
       "title": "Total number of students"
     },
     "tooltip": [
-      {"field": "Institution", "type": "ordinal", "title": "Univeristy"},
-      {
-        "field": "Total",
-        "type": "quantitative",
-        "title": "Total number of Students"
-      }
-    ]
+      {"field": "Institution", "type": "nominal", "title": "University"},
+      {"field":"Total", "type": "quantitative",
+      "title": "Number of students"}]
   },
   "config": {}
 }

@@ -943,8 +943,8 @@
       }
     ]
   },
-  "height": 300,
-  "width": 300,
+  "height": 350,
+  "width": 350,
   "mark": {"type": "area", "point": false},
   "selection": {
     "region": {"type": "multi", "fields": ["Country Name"], "bind": "legend"}

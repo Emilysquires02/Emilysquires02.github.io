@@ -11,8 +11,8 @@
   "data":{"url": "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/data_IMF_creditOutstanding%20(2).csv"},
 
 
-  "height": 300,
-  "width": 300,
+  "height": 350,
+  "width": 350,
 
   "mark": {
     "type": "bar",
