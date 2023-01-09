@@ -117,3 +117,43 @@ h4, p{
     margin: 0 auto;
     
 }
+
+
+
+/* from w3schools - different media screens */
+
+/* for screens between 390 to 430 px */
+@media screen and (max-width: 430px) and (min-width: 390px) {
+  .vega-embed.has-actions {
+      width: 360px;
+  }
+}
+
+/* for screens 389 px and below*/
+@media screen and (max-width: 389px) {
+  .vega-embed.has-actions {
+      width: 340px;
+  }
+}
+
+/* for screens 450 px and below */
+@media screen and (max-width: 450px) {
+  h1{
+      font-size: 40px;
+  } 
+
+  h2{
+      font-size: 25px;
+  } 
+
+  h3{
+      font-size: 15px;
+  } 
+  p{
+      font-size: 17px;
+  }
+
+  #buttoncode{
+      font-size: 11px;
+  }  
+}
