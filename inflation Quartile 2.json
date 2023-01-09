@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Inflation categories for low-income households",
+    "subtitle": "Data ONS, households in the second quintile",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/inflation-2(less%20data).json"
+  },
+  "height": 300,
+  "width": 450,
+  "mark": {"type": "line", "point": false, "tooltip": true
+},
+  "encoding": {
+    "x": {
+      "field": "Date ",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+    "y": {"field": "Inflation", "type": "quantitative", "title": null},
+    "color": {
+      "field": "Category",
+      "type": "nominal",
+      "scale": {"scheme": "tableau20"},
+      "title": null,
+      "legend": {"orient": "top-left"}
+    }},
+  "config": {}
+}
